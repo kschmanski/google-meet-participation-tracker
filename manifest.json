@@ -1,0 +1,18 @@
+{
+  "name": "Google Meet Attendance Tracker",
+  "description": "Indicate which members of a Google Meet have attended or participated in the meeting",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://meet.google.com/**-**-**"],
+      "js": ["scripts/content-script.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
