@@ -44,4 +44,4 @@ runExtension = function() {
 }
 
 // Wait for Google Meet to load, then execute
-setInterval(runExtension, 5000);
+setInterval(runExtension, 3000);
