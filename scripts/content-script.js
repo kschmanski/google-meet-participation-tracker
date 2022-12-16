@@ -36,7 +36,10 @@ runExtension = function() {
     var participants = participants_div.children;
 
     for (const participant of participants) {
-        participant.addEventListener('click', updateParticipantOpacity);
+        // Add an event to the cell containing the users name, but not the entire row
+        // Otherwise, clicking on the buttons on the right side of the user will trigger
+        // this change
+        participant.firstChild.addEventListener('click', updateParticipantOpacity);
     }
 }
 
