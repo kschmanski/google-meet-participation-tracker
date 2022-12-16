@@ -3,7 +3,7 @@
 A Google Chrome extension for keeping track of who has participated in a Google Meet.
 
 ## Usage
-To keep track of who has participated in a meeting, simply click the row corresponding to their name in the Google Meet. This will reduce the opacity of their name to indicate that this person has participated in the meeting. Additionally, you can click on their name again to restore the row to its original opacity.
+To keep track of who has participated in a meeting, simply click the row containing their name in the Google Meet. This will reduce the opacity of their name to indicate that this person has participated in the meeting. Additionally, you can click on their name again to restore the row to its original opacity.
 
 https://user-images.githubusercontent.com/29218137/208204890-8607e542-a5c2-41b8-b1ff-e50663687e72.mov
 
