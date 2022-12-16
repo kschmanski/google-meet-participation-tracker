@@ -1,4 +1,4 @@
-# Google Meet Attendance Tracker
+# Google Meet Participation Tracker
 
 A Google Chrome extension for keeping track of who has participated in a Google Meet.
 
