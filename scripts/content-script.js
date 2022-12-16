@@ -36,7 +36,6 @@ runExtension = function() {
     var participants = participants_div.children;
 
     for (const participant of participants) {
-        //participant.addEventListener('click', updateParticipantBackgroundColor);
         participant.addEventListener('click', updateParticipantOpacity);
     }
 }
