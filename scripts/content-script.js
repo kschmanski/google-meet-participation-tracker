@@ -1,18 +1,4 @@
 /**
- * Updates the background color of the Google Meet participant to gray or white.
- *
- * @return void
- */
-updateParticipantBackgroundColor = function() {
-    var newColor = "gray";
-    if (this.style.backgroundColor == "gray") {
-        newColor = "white";
-    }
-    this.style.backgroundColor = newColor;
-    this.firstChild.style.backgroundColor = newColor;
-}
-
-/**
  * Updates the opacity of the Google Meet participant.
  *
  * @return void
