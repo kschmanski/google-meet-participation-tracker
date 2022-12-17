@@ -1,5 +1,5 @@
 {
-  "name": "Google Meet Attendance Tracker",
+  "name": "Google Meet Participation Tracker",
   "description": "Indicate which members of a Google Meet have attended or participated in the meeting",
   "version": "1.0",
   "manifest_version": 2,
